@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Stories Big Lessons - Ahmed Samy</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Custom CSS (compiled from styles.scss) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg header-nav">
+        <div class="container py-3">
+            <a class="navbar-brand brand-title" href="#">AHMED SAMY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-lg-4 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About the Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#donate">Donate & Get Your Copy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-75 py-5">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h1 class="hero-title fw-black mb-4">
+                        Real stories<br>
+                        from a real<br>
+                        <span class="text-red">journey.</span>
+                    </h1>
+                    <p class="hero-description text-dark fs-5 mb-3">
+                        A collection of personal stories from my life, work, and business — and the lessons that shaped me.
+                    </p>
+                    <p class="hero-subdescription text-dark fs-5 mb-4">
+                        Simple, honest, and practical lessons you can actually use.
+                    </p>
+                    <div class="red-line"></div>
+                </div>
+                <!-- Inside the hero section right column -->
+<div class="col-lg-6 text-center">
+    <div class="book-container">
+        <img src="images/my-book.png" alt="Small Stories Big Lessons - Ahmed Samy" class="img-fluid book-cover">
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+<!-- About the Author Section -->
+<section id="about-author" class="author-section my-0">
+    <div class="container">
+        <div class="row align-items-center g-4">
+            
+            <!-- Left Column: Author Photo with Overlap -->
+            <div class="col-lg-5 text-center text-lg-start">
+                <div class="author-img-wrapper">
+                    <img src="images/ahmed-samy-png.png" alt="Ahmed Samy" class="img-fluid author-portrait">
+                </div>
+            </div>
+
+            <!-- Right Column: Author Bio -->
+            <div class="col-lg-7 ps-lg-5 pt-4 pt-lg-0 pb-5">
+                <p class="section-subtitle text-red text-uppercase fw-bold tracking-wider mb-2">ABOUT THE AUTHOR</p>
+                <h2 class="display-4 fw-black text-dark mb-1">Ahmed Samy</h2>
+                <p class="text-secondary fs-5 fw-medium mb-3">Entrepreneur, Investor & Lifelong Learner</p>
+                <div class="red-line mb-4"></div>
+                <p class="text-dark fs-5 leading-relaxed mb-3">
+                    I'm the <strong>co-founder of Eureka Digital</strong>, a health & wellness digital agency operating across the Middle East, Europe, and beyond. I'm a pharmacist by training, an entrepreneur by passion, and a lifelong learner who believes in people, meaningful work, and continuous growth.
+                </p>
+                <p class="text-dark fs-5 leading-relaxed mb-0">
+                    Through this book, I share real experiences, personal lessons, and practical insights from my journey — hoping they inspire you in your own.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Donate & Download Section -->
+    <section id="donate" class="donate-section py-5 text-white position-relative">
+        <div class="container py-4 position-relative z-1">
+            <p class="section-subtitle text-uppercase tracking-wider opacity-75 fw-semibold mb-2">MAKE A DIFFERENCE</p>
+            <h2 class="display-4 fw-black mb-3">
+                Get your copy<br>
+                when you donate<br>
+                to <span class="text-yellow">Gaza.</span>
+            </h2>
+            <p class="fs-5 mb-4 text-white-50">
+                Support people in need and get a free copy of the book.
+            </p>
+
+            <!-- Donation Form/Input Container -->
+            <form action="#" method="POST" class="donation-box max-w-500">
+                <div class="input-group input-group-lg mb-3 rounded-3 overflow-hidden bg-white">
+                    <span class="input-group-text bg-white border-0 text-secondary pe-0 fs-6">I donated</span>
+                    <input type="number" class="form-control border-0 text-center fw-bold fs-4 text-dark shadow-none" value="50" min="1" aria-label="Donation Amount">
+                    <select class="form-select border-0 bg-white fw-semibold pe-4 border-start text-uppercase" style="max-width: 100px;">
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="EGP">EGP</option>
+                    </select>
+                </div>
+                <!-- Action / Buy Link -->
+                <a href="YOUR_STRIPE_OR_GUMROAD_LINK_HERE" class="btn btn-yellow btn-lg w-100 fw-bold py-3 text-dark fs-5 rounded-3 d-flex align-items-center justify-content-center gap-2">
+                    <i class="bi bi-download"></i> Download Now
+                </a>
+            </form>
+        </div>
+    </section>
+
+    <!-- Reviews / Testimonial Section -->
+    <section id="reviews" class="reviews-section bg-black text-white py-5">
+        <div class="container py-5">
+            <div class="row align-items-center justify-content-center g-4">
+                <div class="col-md-4 text-center text-md-end">
+                    <!-- Replace image source with reviewer photo -->
+                    <img src="https://via.placeholder.com/200" alt="Mohamed (Nagaty) Aboulnaga" class="rounded-circle img-fluid avatar-img border border-3 border-secondary">
+                </div>
+                <div class="col-md-8 col-lg-7">
+                    <div class="quote-wrapper position-relative">
+                        <span class="quote-icon text-red display-1 fw-bold position-absolute start-0 top-0 translate-middle-y">“</span>
+                        <blockquote class="blockquote pt-3 mb-4">
+                            <p class="fs-4 leading-relaxed text-light mb-0 ps-4">
+                                I love this guy, so I might be a little biased when it comes to him. But putting that aside, the book is genuinely good, honest, and authentic. Definitely worth reading!
+                            </p>
+                        </blockquote>
+                        <div class="author-info ps-4 border-start border-red border-2">
+                            <h5 class="fw-bold mb-1">Mohamed (Nagaty) Aboulnaga</h5>
+                            <p class="text-secondary small mb-0">Entrepreneur, Investor & Lifelong Learner</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
